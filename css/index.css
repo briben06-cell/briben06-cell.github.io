@@ -33,4 +33,32 @@
     color: white;
 }
 
-	
+/*https://www.w3schools.com/css/css_navbar_vertical.asp*/
+.fun ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: #555555;
+  color: white;
+}
+
+/*https://www.w3schools.com/howto/howto_js_active_element.asp */
+
+/* Style the active class (and buttons on mouse-over) */
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
