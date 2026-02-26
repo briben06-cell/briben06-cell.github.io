@@ -55,10 +55,8 @@ li a:hover {
   color: white;
 }
 
-/*https://www.w3schools.com/howto/howto_js_active_element.asp */
-
-/* Style the active class (and buttons on mouse-over) */
-.active, .btn:hover {
-  background-color: #666;
+/* Add an active class to highlight the current page */
+.navbar li a.active {
+  background-color: #878787;
   color: white;
 }
