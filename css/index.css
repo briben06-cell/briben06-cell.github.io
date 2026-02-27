@@ -60,3 +60,16 @@ li a:hover {
   background-color: #878787;
   color: white;
 }
+body {
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+.joli { 
+width: 300px;
+  border: 4px solid black;
+  padding: 5px;
+  margin: 4px;
+}
+body { 
+margin: 15px;
+}
