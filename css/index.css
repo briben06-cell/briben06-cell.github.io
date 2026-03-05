@@ -13,27 +13,27 @@
 }
 
 .navbar li a {
-    display: block; /* Make the entire link area clickable */
-    color: white; /* Text color */
+    display: block; /* Faits que ont peut cliquer partout */
+    color: white; /* La couleur du text */
     text-align: center;
-    padding: 14px 16px; /* Space around text */
-    text-decoration: none; /* Remove underlines */
+    padding: 14px 16px; /* Espace autoure le text */
+    text-decoration: none; 
     font-size: 17px;
 }
 
-/* Change the background color of links on hover */
+/* Change la couleur quant ont hover */
 .navbar li a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Add an active class to highlight the current page */
+/* Se code surling la page que ont est dessu */
 .navbar li a.active {
     background-color: #04AA6D;
     color: white;
 }
 
-/*https://www.w3schools.com/css/css_navbar_vertical.asp*/
+/*source : https://www.w3schools.com/css/css_navbar_vertical.asp*/
 .fun ul {
   list-style-type: none;
   margin: 0;
@@ -65,7 +65,7 @@ body {
 }
 
 .joli { 
-width: 300px;
+width: 500px;
   border: 4px solid black;
   padding: 5px;
   margin: 4px;
@@ -73,4 +73,3 @@ width: 300px;
 body { 
 margin: 15px;
 }
-
